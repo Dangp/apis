@@ -15,7 +15,7 @@
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="correos">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  {{-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> --}}
                 </div>
                 
                 <div class="mb-3">
@@ -28,23 +28,7 @@
       </div>
        
       
-      <script type="text/javascript">
-        window.mifiel.widget({
-          widgetId: 'c8aa73d1-db06-4d18-9f56-196b00f6eb69',
-          appendTo: 'id-of-the-element-to-append',
-          successBtnText: 'Proceed to next step',
-          onSuccess: {
-            // here the code you want to execute after the signer successfully sign and click the button could be an url  'mifiel.com' or a function() {}
-            callToAction: function() {
-              alert('documento firmado');
-            },
-          }
-          onError: {
-            // here the code you want to execute after an error occurs, could be an url  'mifiel.com' or a function() {}
-            callToAction: 'https://www.mifiel.com',
-          },
-        });
-      </script>
+
       
       
       
