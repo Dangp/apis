@@ -31,6 +31,7 @@ class ApiController extends Controller
     public function guardarDocumento(Request $request)
     {
         try {
+            
             /* dd($request->file('file')->getPathname()); */
             Mifiel::setTokens('db16d0a5a2eb0139f339e40d8c6082ef73b0f738', 'BVukTQaAjrVD5e2n/ojk/PGkqqAheS2Q0W/Gmu44c9QjBrHrRuQCnuzBS8nKeO5QgEIlskgxyCi6zOa+a7U3nw==');
             Mifiel::url('https://sandbox.mifiel.com/api/v1/');
